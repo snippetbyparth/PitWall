@@ -1,0 +1,29 @@
+PROJECTS
+
+SpendSmart | Personal Expense Tracker                     github.com/partharora/spendsmart
+Flutter · FastAPI · PostgreSQL · SQLAlchemy · Riverpod · JWT · Render
+
+- Built and deployed a full-stack mobile finance app serving [X] users,
+  with a FastAPI backend hosted on Render handling [X] REST API endpoints
+  across authentication, transactions, and budget modules.
+- Designed a normalized PostgreSQL schema across [X] tables using
+  SQLAlchemy ORM, reducing query redundancy and keeping average API
+  response time under [X]ms.
+- Implemented JWT-based auth with token refresh, managing state across
+  [X]+ screens using Riverpod; distributed as an Android APK of [X]MB.
+- Visualized spending trends through dynamic charts covering [X]+
+  transaction categories, giving users real-time budget vs. actual tracking.
+
+
+PitWall | F1 Race Intelligence Dashboard                  github.com/partharora/pitwall
+Flutter · OpenF1 API · Ergast API · Riverpod · Dio · fl_chart
+
+- Built a real-time F1 telemetry dashboard consuming [X]+ API endpoints
+  across OpenF1 and Ergast, aggregating live data for [X] race sessions
+  and [20] drivers per season.
+- Rendered [X] interactive chart types (lap timing, standings delta,
+  head-to-head comparisons) using fl_chart, with data refreshing
+  every [X] seconds during live sessions.
+- Structured the app across [X]+ screens with clean architecture —
+  separating providers, services, and UI layers — keeping rebuild
+  scope minimal via Riverpod's fine-grained state watching.
