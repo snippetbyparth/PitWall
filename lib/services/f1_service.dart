@@ -104,4 +104,13 @@ class F1Service {
       throw Exception('Failed to fetch intervals: ${e.message}');
     }
   }
+
+Future<List> getLatestRaceResults() async {
+  try {
+    final response = await _jolpica.get('/current/last/results.json');
+    return response.data['MRData']['RaceTable']['Races'][0]['Results'];
+  } on DioException catch (e) {
+    throw Exception('Failed to fetch latest race results: ${e.message}');
+  }
+}
 }

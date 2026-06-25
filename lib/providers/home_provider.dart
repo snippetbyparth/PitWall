@@ -11,10 +11,13 @@ final homeDataProvider = FutureProvider((ref) async {
     service.getDriverStandings(),
     service.getConstructorStandings(),
     service.getRaceSchedule(),
+    service.getLatestRaceResults(),
   ]);
   return {
     'driverStandings': results[0],
     'constructorStandings': results[1],
     'raceSchedule': results[2],
+    'latestResults': results[3],
   };
 });
+

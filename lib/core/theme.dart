@@ -29,7 +29,7 @@ class F1Theme {
         backgroundColor: F1Colors.background,
         elevation: 0,
         centerTitle: false,
-        titleTextStyle: GoogleFonts.rajdhani(color: F1Colors.white,
+        titleTextStyle: GoogleFonts.rajdhani(color: F1Colors.red,
         fontSize: 20,
         fontWeight: FontWeight.bold,
         letterSpacing: 2),
