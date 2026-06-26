@@ -1,16 +1,66 @@
-# pitwall
+# PitWall 🏎️
 
-A new Flutter project.
+A Flutter-based Formula 1 analysis app built for fans who want race data, standings, and insights beyond the headlines.
+
+## Features
+
+### Current
+
+* Splash screen with animations
+* Home dashboard
+* Next race countdown
+* Latest race podium
+* Loading and error states
+* Persistent bottom navigation
+
+### Coming Soon
+
+* Driver standings
+* Constructor standings
+* Race analysis
+* Strategy analysis
+* Driver comparison
+* Driver profiles
+
+## Tech Stack
+
+* Flutter
+* Riverpod
+* Dio
+* go_router
+* OpenF1 API
+* Jolpica API
+
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/splash_screen.png" width="250"/>
+  <img src="screenshots/home_screen.png" width="250"/>
+</p>
+
+## Roadmap
+
+* [ ] Championship standings
+* [ ] Race Hub
+* [ ] Race Analysis
+* [ ] Strategy Analysis
+* [ ] Driver Comparison
+* [ ] Driver Details
+* [ ] Full Standings
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+git clone https://github.com/snippetbyparth/pitwall.git
+cd pitwall
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## About
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+PitWall is a personal portfolio project built to improve my Flutter skills while creating something useful for Formula 1 fans.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+Built by Parth Arora
